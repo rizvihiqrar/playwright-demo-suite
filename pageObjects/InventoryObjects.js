@@ -1,0 +1,15 @@
+export const inventoryPageLocators = {
+    pageHeading: "[data-test='title']",
+    inventoryItems: "[data-test='inventory-item']",
+    itemName: "[data-test='inventory-item-name']",
+    itemPrice: "[data-test='inventory-item-price']",
+    addToCartFirstItem: "[data-test='inventory-item']:first-child [data-test^='add-to-cart']",
+    removeFirstItem: "[data-test='inventory-item']:first-child [data-test^='remove']",
+    addToCartByName: (slug) => `[data-test='add-to-cart-${slug}']`,
+    removeByName: (slug) => `[data-test='remove-${slug}']`,
+    cartBadge: "[data-test='shopping-cart-badge']",
+    cartLink: "[data-test='shopping-cart-link']",
+    sortDropdown: "[data-test='product-sort-container']",
+    burgerMenu: "#react-burger-menu-btn",
+    logoutLink: "#logout_sidebar_link",
+};
