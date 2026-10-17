@@ -1,5 +1,7 @@
 # playwright-demo-suite
 
+> **Archived (read-only).** This was an early standalone suite and is kept as it was. The maintained Sauce Demo tests are the [regression suite](https://github.com/rizvihiqrar/qa-automation-platform/tree/main/packages/ai-test-generator) in [qa-automation-platform](https://github.com/rizvihiqrar/qa-automation-platform): 43 reviewed tests split across 3 CI runners, with a check that no test was lost or run twice.
+
 ![CI](https://github.com/rizvihiqrar/playwright-demo-suite/actions/workflows/playwright.yml/badge.svg)
 
 A Playwright E2E suite targeting the public [Sauce Demo](https://www.saucedemo.com) storefront. Built with a Page Object Model and reusable action helpers. **Clone it and run it with no credentials to configure.**
